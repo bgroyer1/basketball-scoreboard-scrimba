@@ -6,36 +6,37 @@ let home3 = document.getElementById("home3")
 let away1 = document.getElementById("away1")
 let away2 = document.getElementById("away2")
 let away3 = document.getElementById("away3")
-let sum = 0;
+let homeSum = 0;
+let awaySum = 0;
 let timerEl = document.getElementById("timer-el")
 
 
 home1.addEventListener("click", () => {
-    sum += 1;
-    homeScore.textContent = sum;
+    homeSum += 1;
+    homeScore.textContent = homeSum;
 })
 
 home2.addEventListener("click", () => {
-    sum += 2;
-    homeScore.textContent = sum;
+    homeSum += 2;
+    homeScore.textContent = homeSum;
 })
 
 home3.addEventListener("click", () => {
-    sum += 3;
-    homeScore.textContent = sum;
+    homeSum += 3;
+    homeScore.textContent = homeSum;
 })
 
 away1.addEventListener("click", () => {
-    sum += 1;
-    awayScore.textContent = sum;
+    awaySum += 1;
+    awayScore.textContent = awaySum;
 })
 
 away2.addEventListener("click", () => {
-    sum += 2;
-    awayScore.textContent = sum;
+    awaySum += 2;
+    awayScore.textContent = awaySum;
 })
 
 away3.addEventListener("click", () => {
-    sum += 3;
-    awayScore.textContent = sum;
+    awaySum += 3;
+    awayScore.textContent = awaySum;
 })
