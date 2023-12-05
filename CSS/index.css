@@ -1,0 +1,65 @@
+body {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    background-color: #1b244a;
+    font-family: "Cursed";
+    background: url("/IMG/vecteezy_basketball-contexte-illustration-ai-generatif_22336935.jpg");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Cursed";
+    src: url("/FONT/CursedTimerUlil-Aznm.ttf");
+}
+
+button {
+    font-family: "Cursed";
+    background-color: #1b244a;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    height: 45px;
+}
+
+button:hover {
+    background-color: #9AABD8;
+    color: #1b244a
+}
+
+.score-btn {
+    margin: 24px 0 0 0;
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #eeeeee;
+    margin: 26px auto 26px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.score {
+    color: #F94F6D;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    font-size: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.board {
+    background-color: #1b244a;
+    padding: 30px 60px;
+    margin: 50px 50px 50px 50px;
+}
